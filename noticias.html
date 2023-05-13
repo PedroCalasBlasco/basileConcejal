@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sergio "Checho" Basile</title>
+
+  <link href="css/jquery-ui.css" media="all" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet"  type="text/css" href="css/style2.css">
+
+  <!--  <script src="noticias/noticias33.js" type="text/javascript"></script> -->
+
+  <style>
+  	 .col-12{
+
+  		border: 2px solid rgb(235,96,65);
+
+  	}
+
+  	.three-columns {
+
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 2rem; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2rem; /* Firefox */
+    column-gap: 2rem;
+
+    -webkit-column-rule: 2px solid rgb(235,96,65); /* Chrome, Safari, Opera */
+    -moz-column-rule: 2px solid rgb(235,96,65); /* Firefox */
+    column-rule: 2px solid rgb(235,96,65);
+	}
+	
+	
+	.imagenNoticia{
+		width: 75%;
+		margin: auto;
+		border: 2px solid rgb(235,96,65);
+		margin-left: 5em; 
+		margin-bottom: 1em
+	}
+
+	.fechaNoticia {
+ 		font-style: italic;	
+	}
+	.tituloNoticia {
+ 		font-weight: bold;	
+	}
+  </style>
+
+</head>
+<body>
+
+  <div class="container-fluid" id="principal">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col col-8 pt-2 pl-3 text-left port">
+      	<a href="index.html"><img src="images/basile.png" width="100em"></a>
+      </div>
+      <div class="col col-4 pt-2 barra">
+      	<div class="pr-2">
+          <a href="https://es-la.facebook.com/sergiojbasile/" target="_blank"><img src="images/my-icons-collection/svg/001-facebook-logo.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://www.instagram.com/checho.basile/?hl=es" target="_blank"><img src="images/my-icons-collection/svg/003-instagram.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://twitter.com/chechobasile?lang=es" target="_blank"><img src="images/my-icons-collection/svg/004-twitter.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+        	<a href="mailto:concejalbasile@concejosantafe.gov.ar" target="_blank"><img src="images/my-icons-collection/svg/mail.svg" alt=""></a>
+        </div>
+        <div class="pr-2">
+          <a href="https://www.youtube.com/channel/UCYtxy2DivpvmZL7SBsCTC0g" target="_blank"><img src="images/my-icons-collection/svg/002-youtube-symbol.svg" alt=""></a>
+        </div>
+      </div>
+     </div>
+  </div>
+
+
+  <div class="container mt-5" id="articulo">
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"> </script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+  	/*var objetoJSON =JSON.parse(noticias);*/
+ 	$.getJSON( "http://hades.palomar.org.es/webbasile/noticias", function( objetoJSON ) {
+		console.log(objetoJSON);
+
+  		var articulo = document.getElementById("articulo");
+  		for (var i = 0; i<objetoJSON.length; i++){
+
+	  		var nuevoArticulo = document.createElement("div");
+	  		nuevoArticulo.className = "container mt-5";
+	  		document.body.insertBefore(nuevoArticulo, articulo);
+	
+	
+	  		var row = document.createElement("div");
+	  		row.className = "row justify-content-center align-items-center";
+	  		nuevoArticulo.appendChild(row);
+	
+	  		var col = document.createElement("div");
+	  		col.className = "col col-12 jumbotron";
+	  		row.appendChild(col);
+	
+	 		var fecha = document.createElement("p");
+	 		fecha.className = "text-right fechaNoticia";
+	  		var fechaJSON =  objetoJSON[i].fecha;
+	  		fecha.innerHTML = fechaJSON;
+	 		col.appendChild(fecha);
+	
+	
+	  		var volanta = document.createElement("h5");
+	  		volanta.innerHTML = objetoJSON[i].volanta;
+	 		col.appendChild(volanta);
+	
+	  		var titulo = document.createElement("h2");
+	  		titulo.className = "text-center tituloNoticia";
+	  		titulo.innerHTML = objetoJSON[i].titulo;
+	 		col.appendChild(titulo);
+	
+	  		var col2 = document.createElement("div");
+	  		col2.className = "col col-12 jumbotron three-columns";
+	 		row.appendChild(col2);
+	
+	  		var copete = document.createElement("h5");
+	  		copete.innerHTML = objetoJSON[i].subtitulo;
+	  		col2.appendChild(copete);
+	
+	  		if (objetoJSON[i].imagen){
+		        var imagen = document.createElement("img");
+		        imagen.src = "data:image/jpeg;base64, " + objetoJSON[i].imagen;
+		        imagen.className = "imagenNoticia";
+		        col2.appendChild(imagen);
+	  		}
+	
+	  		var cuerpo = document.createElement("p");
+	  		cuerpo.className = "text-justify";
+	  		cuerpo.innerHTML = objetoJSON[i].cuerpo;
+	  		col2.appendChild(cuerpo);
+  		}
+  	});
+
+
+
+
+  </script>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"> </script>
+  <script src="js/bootstrap.min.js"></script>
+
+ </body>
+ </html>

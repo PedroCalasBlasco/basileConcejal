@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 54 54" style="enable-background:new 0 0 54 54;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<g>
+		<path style="fill:#F8F5F8" d="M27,1L27,1c14.359,0,26,11.641,26,26v0c0,14.359-11.641,26-26,26h0C12.641,53,1,41.359,1,27v0    C1,12.641,12.641,1,27,1z" data-original="#9B507E" class="active-path" data-old_color="#F7F3F7"/>
+		<path style="fill:#F8F5F8" d="M27,54C12.112,54,0,41.888,0,27S12.112,0,27,0s27,12.112,27,27S41.888,54,27,54z M27,2    C13.215,2,2,13.215,2,27s11.215,25,25,25s25-11.215,25-25S40.785,2,27,2z" data-original="#9B507E" class="active-path" data-old_color="#F7F3F7"/>
+	</g>
+	<path style="fill:#EB6041" d="M27,40.5c-0.552,0-1-0.447-1-1v-26c0-0.553,0.448-1,1-1s1,0.447,1,1v26   C28,40.053,27.552,40.5,27,40.5z" data-original="#FFFFFF" class="" data-old_color="#E21C1C"/>
+	<polygon style="fill:#EB6041" points="27,41.914 16.293,31.207 17.707,29.793 27,39.086 36.293,29.793 37.707,31.207  " data-original="#FFFFFF" class="" data-old_color="#E21C1C"/>
+</g></g> </svg>

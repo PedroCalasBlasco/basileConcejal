@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+  font-family: museo;
+  src: url(../fonts/Museo700-Regular.otf);
+}
+
+
+body{
+  font-size: 9px;
+  font-family: museo, sans-serif;
+}
+
+/* INDEX */
+.sectionTop{
+  font-size: 0.5em;
+  /*background-color: rgb(66,166,215);*/
+  /*height: 65vh;*/
+}
+.sectionTop img{
+	width: 100%;
+	height: auto;
+}
+
+.sectionBottom{
+  font-size: 0.5em;
+  background-color: rgb(66,166,215);
+  height: auto;
+}
+
+input{
+  width: 50%;
+  height: 8vh;
+}
+.botin{
+  height: 15vh;
+  border-radius: 25%;
+  color: rgba(202,72,56);
+  /*box-shadow: 10px 10px 5px grey;*/
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  border-color: rgb(35,162,171);
+}
+.botin::after{
+  z-index: -1; /* hide shadow behind image */
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+  text-decoration: none !important;
+}
+.botin :hover{
+  text-decoration: none !important;
+}
+
+/* camino */
+
+.mapbuttons{
+	background-color:rgb(66,166,215);
+	color:rgb(255,255,255);
+}
+
+.leaflet-popup-content {
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+#caminoseguro{
+  border: 1px solid rgb(80, 116, 57);
+  height: 85vh;
+  z-index: 400;
+}
+
+#btncaminos-section{
+  height: 15vh;
+  background-color: white;
+}
+#eligeCamino{
+  top: 10vh;
+  left: 12vw;
+  z-index: 8000;
+}
+#button-layer-div{
+  height: 30px;
+  position: absolute;
+  top: 75vh;
+  left:3vw;
+  z-index: 1000;
+}
+#button-back-div{
+  height: 30px;
+  position: absolute;
+  top: 3vh;
+  right:5vw;
+  z-index: 1000;
+}
+#button-geo-div{
+  height: 30px;
+  position: absolute;
+  top: 75vh;
+  right:5vw;
+  z-index: 1000;
+}
+
+.butones{
+  height: 19vh;
+}
+.botCamin{	
+  font-family: museo, sans-serif;
+  height: 15vh;
+  border-radius: 25%;
+  color: white;
+  /*box-shadow: 10px 10px 5px grey;*/
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  border-color: rgb(35,162,171);
+}
+
+.leaflet-control-layers-list{
+	height: 60px;
+	width: 163px;
+    position: absolute;
+    top: 460px;
+    left: 3vw;
+    z-index: 2000;
+    border: 2px solid rgb(66,166,215);
+    background-color: rgba(255,255,255, 0.5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    
+} 
+
+/*#controlCapas{
+	visibility: hidden;	
+}*/
+
+/* Customize the label (the container) */
+.labelcheck {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.labelcheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.labelcheck:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.labelcheck input:checked ~ .checkmark {
+  background-color: rgb(66,166,215);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.labelcheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.labelcheck .checkmark:after {
+  left: 4px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/* amigo */
+#vecino{
+  border: 1px solid rgb(80, 116, 57);
+  height: 85vh;
+  z-index: 400;
+}
+#button-layer-div2{
+  height: 30px;
+  position: absolute;
+  top: 75vh;
+  left:3vw;
+  z-index: 1000;
+}
+#button-back-div2{
+  height: 30px;
+  position: absolute;
+  top: 3vh;
+  right:5vw;
+  z-index: 1000;
+}
+#vecinoBottom{
+  height: 15vh;
+}
+.btn-amigo{
+  height: 14vh;
+}
+/* agenda */
+
+#headerAgenda{
+	color: rgb(66,166,215);
+	font-size:0.5em;
+	border: 5px solid rgb(66,166,215);
+	
+}
+.rowsAgenda{
+	border: 3px solid rgb(66,166,215);
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgb(66,166,215);
+	
+}
+.colsAgenda{
+	font-size: 1.2em;
+}
+.fa-search-location{
+	font-size: 2em;
+	color: white !important;
+}
+
+/* compartir */
+#comparteMapa{
+  border: 1px solid rgb(80, 116, 57);
+  height: 85vh;
+  z-index: 400;
+}
+#btncompartir-section{
+  height: 15vh;
+  background-color: white;
+}
+#button-layer-div3{
+  height: 30px;
+  position: absolute;
+  top: 75vh;
+  left:3vw;
+  z-index: 1000;
+}
+#button-back-div3{
+  height: 30px;
+  position: absolute;
+  top: 3vh;
+  right:5vw;
+  z-index: 1000;
+}

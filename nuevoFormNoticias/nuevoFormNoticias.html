@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Gestión de noticias</title>
+
+    <link rel="canonical" href="#">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/dashboard.css" rel="stylesheet">
+
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0"   style="height:4em">
+
+
+          <div class="btn-toolbar mb-2 mb-md-0">
+                <button class="btn btn-sm btn-outline-secondary">Nueva noticia</button>
+            </div>
+
+
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap" >
+                <button class="btn btn-sm btn-outline-secondary">Grabar noticia</button>
+                <button class="btn btn-sm btn-outline-secondary">Borrar noticia</button>
+        </li>
+      </ul>
+    </nav>
+
+
+
+
+
+    <div class="container-fluid">
+      
+	  <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+
+
+			<div class="list-group">
+			  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+				<div class="d-flex w-100 justify-content-between">
+				  <h5 class="mb-1">List group item heading</h5>
+				  <small>3 days ago</small>
+				</div>
+				<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+				<small>Donec id elit non mi porta.</small>
+			  </a>
+			  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+				<div class="d-flex w-100 justify-content-between">
+				  <h5 class="mb-1">List group item heading</h5>
+				  <small class="text-muted">3 days ago</small>
+				</div>
+				<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+				<small class="text-muted">Donec id elit non mi porta.</small>
+			  </a>
+			  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+				<div class="d-flex w-100 justify-content-between">
+				  <h5 class="mb-1">List group item heading</h5>
+				  <small class="text-muted">3 days ago</small>
+				</div>
+				<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+				<small class="text-muted">Donec id elit non mi porta.</small>
+			  </a>
+			</div>
+		
+          </div>
+        </nav>
+
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <h1 class="h2">Gestión de la noticia</h1>
+          </div>
+
+
+
+
+
+
+  <div class="container mt-5">
+  <div class="row">
+  <form name="formulario" method="post" action="#" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="volanta"> Escribe la Fecha</label>
+      <div class="date" id="fecha">
+        <input type="date" class="form-control" />
+        <span class="input-group-addon">
+            <span class="glyphicon glyphicon-calendar"></span>
+        </span>
+      </div>
+    </div>
+    <div class="form-group mt-3">
+      <label for="volanta"> Escribe la volanta</label>
+      <textarea class="form-control" id="volanta" rows="1" placeholder="Escribe acá"required ></textarea>
+    </div>
+    <div class="form-group mt-3">
+      <label for="titulo"> Escribe el Título</label>
+      <textarea class="form-control" id="titulo" rows="2" placeholder="Escribe acá" required></textarea>
+    </div>
+    <div class="form-group mt-3">
+      <label for="subtitulo"> Escribe el Copete</label>
+      <textarea class="form-control" id="subtitulo" rows="5" placeholder="Escribe acá" required></textarea>
+    </div>
+    <div class="form-group mt-3">
+      <label for="cuerpo"> Escribe el Cuerpo</label>
+      <textarea class="form-control" id="cuerpo" rows="20" placeholder="Escribe acá" required></textarea>
+    </div>
+    <div class="form-group mt-3 text-center">
+      <label for="adjunto"> Adjunta una imagen</label>
+      <input type="file" name="adjunto" accept=".jpg,.png">
+    </div>
+  </form>
+  </div>
+  </div>
+
+
+
+
+        </main>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="./js/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+  
+
+</body>
+
+</html>

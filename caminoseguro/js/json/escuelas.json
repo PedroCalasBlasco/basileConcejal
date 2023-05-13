@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-60.69523455491035,-31.63917232223636]},"properties":{"id":1,"Nombre":"Mariano Moreno"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-60.68766209885544,-31.632353502020923]},"properties":{"id":2,"Nombre":"Escuela Velez Sharfield"}}
+]}

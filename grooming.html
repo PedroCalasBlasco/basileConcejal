@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sergio "Checho" Basile</title>
+
+  <link href="css/jquery-ui.css" media="all" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <link href="css/ol.css" media="all" type="text/css" rel="stylesheet">
+  <link href="css/ol-ext.min.css" media="all" type="text/css" rel="stylesheet">
+
+
+  <link rel="stylesheet"  type="text/css" href="css/style2.css">
+
+ 
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid" id="principal">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col col-8 pt-2 pl-3 text-left port">
+      	<a href="index.html"><img src="images/basile.png" width="100em"></a>
+      </div>
+      <div class="col col-4 pt-2 barra">
+      	<div class="pr-2">
+          <a href="https://es-la.facebook.com/sergiojbasile/" target="_blank"><img src="images/my-icons-collection/svg/001-facebook-logo.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://www.instagram.com/checho.basile/?hl=es" target="_blank"><img src="images/my-icons-collection/svg/003-instagram.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://twitter.com/chechobasile?lang=es" target="_blank"><img src="images/my-icons-collection/svg/004-twitter.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+        	<a href="mailto:concejalbasile@concejosantafe.gov.ar" target="_blank"><img src="images/my-icons-collection/svg/mail.svg" alt=""></a>
+        </div>
+        <div class="pr-2">
+          <a href="https://www.youtube.com/channel/UCYtxy2DivpvmZL7SBsCTC0g" target="_blank"><img src="images/my-icons-collection/svg/002-youtube-symbol.svg" alt=""></a>
+        </div>
+      </div>
+     </div>
+  </div>
+  
+  <div class="container-fluid pl-3 mt-3" id="sectiongrooming">
+  	<div class="row justify-content-around">
+	  	<div class="col col-12 col-xl-9 ml-3">
+	  		<div id="mapagrooming" class="col col-12 py-1"></div>
+	  		<div id= "divcarouselgrooming" class="col col-12 pt-1">
+	  			<div id="carouselgrooming1" class="carousel slide carousel-fade" data-ride="carousel" style="background-color:rgba(235,96,65);">
+	  		  		<div class="carousel-inner text-center">
+			    		<div class="carousel-item active">
+			      			<h2>60</h2>
+            	  			<h2>Charlas Realizadas</h2>
+			    		</div>
+			    		<div class="carousel-item">
+			      			<h2>40</h2>
+            	  			<h2>Instituciones Visitadas</h2>
+			    		</div>
+			    		<div class="carousel-item">
+			      			<h2>1500</h2>
+            	  			<h2>Alumnos Alcanzados</h2>
+			    		</div>
+			    		<div class="carousel-item">
+			      			<h2>1352</h2>
+                  			<h2>Encuestas Realizdas</h2>
+			    		</div>
+			  		</div>
+			  		<a class="carousel-control-prev" href="#carouselgrooming1" role="button" data-slide="prev">
+				 		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				 		<span class="sr-only">Previous</span>
+			  		</a>
+			  		<a class="carousel-control-next" href="#carouselgrooming1" role="button" data-slide="next">
+			    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    		<span class="sr-only">Next</span>
+			  		</a>
+				</div>
+	  		</div>
+	  		<div class="mt-3 text-center">
+	  			<a href="images/folleto.pdf" target="_blank"><button class="btn btn-lg btn-primary">¿Querés Saber Más?</button></a>
+	  		</div>
+	  	</div>
+	  	<div class="col col-12 col-xl-2 jumbotron">
+			<h5 class="text-center"><strong>GROOMING</strong></h5> 
+			<hr>
+			<h5 class="text-center" style="font-size:1.1em;">Es la acción deliberada de una persona adulta de acosar sexualmente a un niño, niña o adolescente mediante el uso de Internet.</h5><br>
+			<h5 class="text-center" style="font-size:1.1em;">Es fundamental poder brindarles a chicas y chicos las herramientas para que puedan prevenir este delito y sepan que hacer ante una situación de riesgo.</h5><br>
+	        <h5 class="text-center" style="font-size:1.1em;">Con el objetivo de concientizar al respecto visitamos diferentes <strong>Instituciones</strong> desde 2016</h5>  
+	  	</div>
+	  	
+	 </div>
+  </div>
+      	
+  <div class="container-fluid">
+  	<div class="row justify-content-around">
+  		<div id="imagesgrooming" class="col-12 col-xl-5 text-center my-3"><img src="images/grooming6.jpg"></div>
+  		<div id="imagesgrooming" class="col-12 col-xl-5 text-center my-3"><img src="images/groom2.jpg"></div>
+  	</div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"> </script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/ol-debug.js"></script>
+  <script src="js/ol-ext.min.js"></script>
+
+
+  <script src="js/grooming.js"></script>
+
+	<script>
+	 $('.card-grid').flip({
+		    axis: 'x',
+		    trigger: 'hover',
+		    reverse: true
+		  });
+	</script>
+
+</body>
+</html>

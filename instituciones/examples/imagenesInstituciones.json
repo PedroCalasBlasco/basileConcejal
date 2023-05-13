@@ -1,0 +1,292 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6792, -31.6300
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/1 Karate IMPUA.jpg",
+                "thumbnailLink": "./examples/images/thubnails/karate.jpg",
+                "title": "KArate IMpua",
+                "direccion": "moreno 1980",
+                "description": "Visita al Karate IMPUA"
+            }
+        },
+		{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6792, -31.6200
+               ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/2 Geob�squeda.jpg",
+                "thumbnailLink": "./examples/images/thubnails/geobusqueda.jpg",
+                "title": "la 2",
+                "description": "Description seen in lightbox"
+            }
+        },
+		{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6922, -31.6200
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/3 luz del cielo.jpg",
+                "thumbnailLink": "./examples/images/thubnails/cielo.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6923, -31.6200
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/4 ayudanos a ayudar.jpg",
+                "thumbnailLink": "./examples/images/thubnails/ayudar.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6922, -31.6500
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/5 Escuela de arte marcial KAPU.jpg",
+                "thumbnailLink": "./examples/images/thubnails/kapu.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6962, -31.6200
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/6 Asoci. Civil del Movimiento los Sin Techo.jpg",
+                "thumbnailLink": "./examples/images/thubnails/sintecho.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6932, -31.6400
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/7 cooperativa setubal.jpg",
+                "thumbnailLink": "./examples/images/thubnails/setubal.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6942, -31.6210
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/8 CONIN.jpg",
+                "thumbnailLink": "./examples/images/thubnails/conin.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.7022, -31.6200
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/9 Barcelona Jrs.jpg",
+                "thumbnailLink": "./examples/images/thubnails/barcelona.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6982, -31.6210
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/10 Cambio de H�bitos.jpg",
+                "thumbnailLink": "./examples/images/thubnails/habitos.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6982, -31.6290
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/11 club velocidad y resistencia.jpg",
+                "thumbnailLink": "./examples/images/thubnails/velocidad.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6989, -31.6210
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/12 generar.jpg",
+                "thumbnailLink": "./examples/images/thubnails/generar.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6989, -31.6219
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/13 Alma Coop.jpg",
+                "thumbnailLink": "./examples/images/thubnails/alma.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6782, -31.6210
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/14 cipress.jpg",
+                "thumbnailLink": "./examples/images/thubnails/cipress.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6989, -31.6290
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/15 Estrellas amarillas.jpg",
+                "thumbnailLink": "./examples/images/thubnails/estrellas.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6909, -31.6290
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/16 Mundo peque�o.jpg",
+                "thumbnailLink": "./examples/images/thubnails/mundo.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6989, -31.6490
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/17 Fundaci�n Centro.jpg",
+                "thumbnailLink": "./examples/images/thubnails/centro.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6989, -31.6310
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/18 autismo.jpg",
+                "thumbnailLink": "./examples/images/thubnails/autismo.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -60.6909, -31.6410
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/images/19 ASOCIACION VECINAL SOLIDARIDAD Y PROGRESO SAN LORENZO.jpg",
+                "thumbnailLink": "./examples/images/thubnails/vecinal.jpg",
+                "title": "la 3",
+                "description": "Description seen in lightbox"
+            }
+        }
+
+    ]
+}

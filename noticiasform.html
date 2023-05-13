@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sergio "Checho" Basile</title>
+
+  <link href="css/jquery-ui.css" media="all" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet"  type="text/css" href="css/style2.css">
+
+  <!--  <script src="noticias/noticias33.js" type="text/javascript"></script> -->
+</head>
+<body>
+
+  <div class="container-fluid" id="principal">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col col-8 pt-2 pl-3 text-left port">
+      	<a href="index.html"><img src="images/basile.png" width="100em"></a>
+      </div>
+      <div class="col col-4 pt-2 barra">
+      	<div class="pr-2">
+          <a href="https://es-la.facebook.com/sergiojbasile/" target="_blank"><img src="images/my-icons-collection/svg/001-facebook-logo.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://www.instagram.com/checho.basile/?hl=es" target="_blank"><img src="images/my-icons-collection/svg/003-instagram.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://twitter.com/chechobasile?lang=es" target="_blank"><img src="images/my-icons-collection/svg/004-twitter.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+        	<a href="mailto:concejalbasile@concejosantafe.gov.ar" target="_blank"><img src="images/my-icons-collection/svg/mail.svg" alt=""></a>
+        </div>
+        <div class="pr-2">
+          <a href="https://www.youtube.com/channel/UCYtxy2DivpvmZL7SBsCTC0g" target="_blank"><img src="images/my-icons-collection/svg/002-youtube-symbol.svg" alt=""></a>
+        </div>
+      </div>
+     </div>
+  </div>
+
+  <div class="container mt-5">
+  <div class="row">
+  <form name="formulario" method="post" action="#" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="volanta"> Escribe la Fecha</label>
+      <div class="date" id="fecha">
+        <input type="date" class="form-control" />
+        <span class="input-group-addon">
+            <span class="glyphicon glyphicon-calendar"></span>
+        </span>
+      </div>
+    </div>
+    <div class="form-group mt-3">
+      <label for="volanta"> Escribe la volanta</label>
+      <textarea class="form-control" id="volanta" rows="1" placeholder="Escribe acá"required ></textarea>
+    </div>
+    <div class="form-group mt-3">
+      <label for="titulo"> Escribe el Título</label>
+      <textarea class="form-control" id="titulo" rows="2" placeholder="Escribe acá" required></textarea>
+    </div>
+    <div class="form-group mt-3">
+      <label for="subtitulo"> Escribe el Copete</label>
+      <textarea class="form-control" id="subtitulo" rows="5" placeholder="Escribe acá" required></textarea>
+    </div>
+    <div class="form-group mt-3">
+      <label for="cuerpo"> Escribe el Cuerpo</label>
+      <textarea class="form-control" id="cuerpo" rows="20" placeholder="Escribe acá" required></textarea>
+    </div>
+    <div class="form-group mt-3 text-center">
+      <label for="adjunto"> Adjunta una imagen</label>
+      <input type="file" name="adjunto" accept=".jpg,.png">
+    </div>
+    <button type="submit" class="btn btn-primary my-5 ml-5 pl-5">Carga la Noticia</button>
+  </form>
+  </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"> </script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

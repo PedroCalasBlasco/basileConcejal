@@ -1,0 +1,565 @@
+{
+"type": "FeatureCollection",
+"features": [
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "2",
+			"name": "Club Republica del Oeste",
+			"address": "Av Gobernador Freyre 2765",
+			"telefono": "3424525929",
+			"descripcio": null,
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/2.jpg",
+      		"thumbnailLink": "./examples/miniaturas/2t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7192829, -31.6487809 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "4",
+			"name": "Jóvenes Resilientes Barrio Los Hornos",
+			"address": "Av Gobernador Freyre 6179",
+			"telefono": null,
+			"descripcio": "ONG que trabaja en barrio Los Hornos para una mejor integración social y poder generar igualdad de derecho ",
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/4.jpg",
+      		"thumbnailLink": "./examples/miniaturas/4t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7192829, -31.6487809 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "5",
+			"name": "Complejo Astronómico CODE",
+			"address": "Av. Almirante. Brown 4998",
+			"telefono": "3425001236",
+			"descripcio": "Centro Observadores del Espacio",
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/5.jpg",
+      		"thumbnailLink": "./examples/miniaturas/5t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.6757905, -31.6183008 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "7",
+			"name": "Biblioteca Bayer",
+			"address": "Avenida General Paz 7351",
+			"telefono": "4197053", "descripcio": null,
+			"email": "bibimasiello@gmail.com",
+			"imageLink": "./examples/imagenesinstituciones/7.jpg",
+      		"thumbnailLink": "./examples/miniaturas/7t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.6880679, -31.6232694 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "8",
+			"name": "CIEME Camara Independiente de Emprendedores y micro Empresas",
+			"address": "Avenida J.M. Zuvirí­a 2735",
+			"telefono": "4887445",
+			"descripcio": "Entidad que reúne a emprendedores sociales, microempresas, prestadores de servicios y artesanos. Brindar apoyo para que los emprendimiento se transforme en una microempresa totalmente viable, rentable y que quien la desarrolla sienta la satisfacción",
+			"email": "www.camaraemprendedores.com.ar",
+			"imageLink": "./examples/imagenesinstituciones/8.jpg",
+      		"thumbnailLink": "./examples/miniaturas/8t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7153276, -31.6135633 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "9",
+			"name": "Copa de Leche \"La Esperanza\" de barrio Acería",
+			"address": "Calle Azcuenaga 6382",
+			"telefono": null,
+			"descripcio": null,
+			"email": "copadelechelaesperanza@hotmail.com",
+			"imageLink": "./examples/imagenesinstituciones/9.jpg",
+      		"thumbnailLink": "./examples/miniaturas/9t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7343035, -31.5861469 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "10",
+			"name": "Vecinal Centenario",
+			"address": "Calle Salustiano Zavalla 721",
+			"telefono": null,
+			"descripcio": null,
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/10.jpg",
+      		"thumbnailLink": "./examples/miniaturas/10t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7225012, -31.6651937 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "13",
+			"name": "ASORSAFE",
+			"address": "Av Gobernador Freyre 2732",
+			"telefono": null,
+			"descripcio": null,
+			"email": "asorsafe@gmail.com",
+			"imageLink": "./examples/imagenesinstituciones/13.jpg",
+      		"thumbnailLink": "./examples/miniaturas/13t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7192829, -31.6487809 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "14",
+			"name": "Agrupación Educadores de Adultos (Ex Docentes del Sistema Provincial- Nivel Primario y de Capacitación Laboral)",
+			"address": "Av Gobernador Freyre 2732",
+			"telefono": "155457926",
+			"descripcio": "Trabajan con todas las escuelas primarias nocturnas, realizando diferentes tareas en las Areas técnico pedagógica y socio comunitaria",
+			"email": "vilmadi40@hotmail.com",
+			"imageLink": "./examples/imagenesinstituciones/14.jpg",
+      		"thumbnailLink": "./examples/miniaturas/14t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7192829, -31.6487809 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "17",
+			"name": "Asociación Luz del Cielo ",
+			"address": "AVDA. SANTA Fé 9966",
+			"telefono": "3424224552",
+			"descripcio": "Brinda apoyo a padres que perdieron un hijo en el embarazo, parto y después de nacer",
+			"email": "luzdecielosantafe@gmail.com",
+			"City": "Santa Fe",
+			"imageLink": "./examples/imagenesinstituciones/17.jpg",
+      		"thumbnailLink": "./examples/miniaturas/17t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.668043, -31.436292 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "18",
+			"name": "Asociación Ayudanos a Ayudar",
+			"address": null,
+			"telefono": "3424392170",
+			"descripcio": "Se caracteriza por hacer eventos para recaudar fondos y destinarlos a necesidades de alguna institución pública o privada",
+			"email": "laurapascutto@hotmail.com",
+			"imageLink": "./examples/imagenesinstituciones/18.jpg",
+      		"thumbnailLink": "./examples/miniaturas/18t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7019561, -31.6186951 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "21",
+			"name": "Cooperativa Setúbal",
+			"address": "Av General Paz 7576",
+			"telefono": "419-9999",
+			"descripcio": "Es una entidad Cooperativa, perteneciente a la Economía Social y Solidaria, que provee de Servicios Públicos a la región de Santa Fe y sus alrededores",
+			"email": "https:www.setubalcoop.com.ar",
+			"imageLink": "./examples/imagenesinstituciones/21.jpg",
+      		"thumbnailLink": "./examples/miniaturas/21t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.6880679, -31.6232694 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "23",
+			"name": "Club Barcelona Juniors",
+			"address": "Calle Azopardo 7767",
+			"telefono": "3425571411",
+			"descripcio": "Tiene como objetivo la realización de actividades deportivas, recreativas y sociales",
+			"email": "ivanarios16@hotmail.com",
+			"imageLink": "./examples/imagenesinstituciones/23.jpg",
+      		"thumbnailLink": "./examples/miniaturas/23t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7124804, -31.5675935 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "24",
+			"name": "Cambio de Hábitos",
+			"address": "Calle Hipólito Yrigoyen 3049",
+			"telefono": "3424685028",
+			"descripcio": "Se dedica a la investigación, prevención y asistencia de adicciones en el campo de la Salud Mental",
+			"email": "cambio-de-habitos@hotmail.com",
+			"imageLink": "./examples/imagenesinstituciones/24.jpg",
+      		"thumbnailLink": "./examples/miniaturas/24t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.728571, -31.6378617 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "27",
+			"name": "Cooperativa Escolar Almacoop (Esc. Macagno)",
+			"address": "Calle Pedro de Vega 1558",
+			"telefono": "4603387",
+			"descripcio": "Alumnos de la escuela Macagno generaron la cooperativa y realizan diferentes tipos de actividades con alguna finalidad colaborativa. Por ejemplo, arreglan y ponen en condiciones sillas de ruedas colaborando con CILSA y Mundo Especial.",
+			"email": "almacoop2056@gmail.com",
+			"imageLink": "./examples/imagenesinstituciones/27.jpg",
+      		"thumbnailLink": "./examples/miniaturas/27t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7118373, -31.6075326 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "29",
+			"name": "ONG Estrellas Amarillas",
+			"address": "Callejón Funes 2513",
+			"telefono": null,
+			"descripcio": "Se dedica a señalizar con pintadas sobre el asfalto (estrellas de color amarillo), los accidentes de tránsito fatales, a la vez que acompañan a los familiares de las víctimas.",
+			"email": "estrellasamarillasstafeciudad@gmail.com",
+			"imageLink": "./examples/imagenesinstituciones/29.jpg",
+      		"thumbnailLink": "./examples/miniaturas/29t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.6879041, -31.5856817 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "32",
+			"name": "Autismo Santa Fe",
+			"address": null,
+			"telefono": "3425290090",
+			"descripcio": "Es un grupo auto convocado de padres - familiares de personas con Autismo TEA (Trastorno del Espectro Autista) y profesionales que se suman con el fin de lograr una mejor condición de vida para sus hijos.",
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/32.jpg",
+      		"thumbnailLink": "./examples/miniaturas/32t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7019561, -31.6186951 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "33",
+			"name": "Vecinal Solidaridad y Progreso",
+			"address": "Calle Amenabar 4050",
+			"telefono": "3424580837",
+			"descripcio": "En el barrio San Lorenzo se ocupa de mejorar el barrio y contener a niñas, niños y jóvenes del barrio mediante actividades deportivas y recreativas.",
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/33.jpg",
+      		"thumbnailLink": "./examples/miniaturas/33t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.7270293, -31.6563208 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "1",
+			"name": "Vecinal Nueva Santa Fe ",
+			"address": "Saavedra 10124",
+			"telefono": "3424426758 (Marcos)",
+			"descripcio": null,
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/1.jpg",
+      		"thumbnailLink": "./examples/miniaturas/1t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.699372812728093, -31.588776121468939 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "3",
+			"name": "Jovenes en Acción ",
+			"address": "Calle San Lorenzo 1567 ",
+			"telefono": "3424525929",
+			"descripcio": "trabaja en pos de transformar sectores en condiciones de vulnerabilidad social, económica y cultural de distintos barrios de la ciudad de Santa Fe.",
+			"email": "contacto@jovenesenaccion.org.ar",
+			"imageLink": "./examples/imagenesinstituciones/3.jpg",
+      		"thumbnailLink": "./examples/miniaturas/3t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.72038109543508, -31.655664479170131 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "6",
+			"name": "Vecinal Santa Rosa de Lima",
+			"address": "Calle Tucumán 4550",
+			"telefono": "154731791",
+			"descripcio": null,
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/6.jpg",
+      		"thumbnailLink": "./examples/miniaturas/6t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.73178905399233, -31.640338884736853 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "11",
+			"name": "Asociacion Volver a Empezar",
+			"address": "Calle Saavedra 6150",
+			"telefono": "154098199",
+			"descripcio": "Trabajan con todas las escuelas primarias nocturnas, realizando diferentes tareas en las áreas técnico pedagógica y socio comunitaria. ",
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/11.jpg",
+      		"thumbnailLink": "./examples/miniaturas/11t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.705344875763465, -31.609102654223229 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "12",
+			"name": "Asociacion Civil IUMA- creciendo en valores",
+			"address": "Calle La Rioja 4178",
+			"telefono": "154879013 4556236",
+			"descripcio": "No cabe",
+			"email": "iuma.creciendoenvalores@gmail.com",
+			"imageLink": "./examples/imagenesinstituciones/12.jpg",
+      		"thumbnailLink": "./examples/miniaturas/12t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.726778197066814, -31.640521265364981 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "15",
+			"name": "Integración Marcial Practicantes Unidos Americanos (Impua) ",
+			"address": "Calle Serguí 2252",
+			"telefono": "3424211433",
+			"descripcio": "Es referente del Arte Marcial en la Provincia, siendo reconocido en el país y en el extranjero",
+			"email": "karatelibreimpua@hotmail.com",
+			"imageLink": "./examples/imagenesinstituciones/15.jpg",
+      		"thumbnailLink": "./examples/miniaturas/15t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.79073203609483, -31.674075000388449 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "16",
+			"name": "La GeoBusqueda",
+			"address": "Mitre 4748",
+			"telefono": "3425763123",
+			"descripcio": "Es un proyecto social que trabaja junto a niños y jóvenes en la creación de mapas interactivos donde se relevan problemas estructurales de sus barrios con la finalidad de crear soluciones y un sentimiento de pertenencia. ",
+			"email": "geobusquedaproyecto@gmail.com",
+			"imageLink": "./examples/imagenesinstituciones/16.jpg",
+      		"thumbnailLink": "./examples/miniaturas/16t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.687757238897696, -31.626859402205231 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "19",
+			"name": "Escuela KAPU (Artes Marciales en Club Regatas)",
+			"address": "Av. Leandro N. Alem 3288",
+			"telefono": "3425441759",
+			"descripcio": "Su misión principal es la difusión de las Artes Marciales en general y del Estilo KAPU en particular",
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/19.jpg",
+      		"thumbnailLink": "./examples/miniaturas/19t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.684967004313663, -31.641963063323065 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "20",
+			"name": "Copa de Leche Movimiento Los Sin Techo",
+			"address": "Pasaje Hno Madeo 1551",
+			"telefono": "3425247439",
+			"descripcio": "Desde el Movimien se brinda ayuda a niños por medio de los comedores y copas de leche que poseen",
+			"email": "lamorocha-23@hotmail.es",
+			"imageLink": "./examples/imagenesinstituciones/20.jpg",
+      		"thumbnailLink": "./examples/miniaturas/20t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.733957862263502, -31.654620214407089 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "25",
+			"name": "Club Atlético Velocidad y Resistencia ",
+			"address": " Campo de Deportes Ruta 168 Km. 477  Calle Sureda Borda - La Guardia",
+			"telefono": "3425221127",
+			"descripcio": "Es una de las grandes entidades del deporte santafesino, forjando atletas de primer nivel local, nacional e internacional",
+			"email": "guillermo317@hotmail.com",
+			"imageLink": "./examples/imagenesinstituciones/25.jpg",
+      		"thumbnailLink": "./examples/miniaturas/25t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.632061907909851, -31.642177276397277 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "26",
+			"name": "Generar",
+			"address": "Calle 4 DE ENERO 6681",
+			"telefono": "4695926",
+			"descripcio": "Trabaja contra la violencia de género y cuenta con un centro de día para atender a mujeres y sus hijos",
+			"email": "danimar_15@hotmail.com",
+			"imageLink": "./examples/imagenesinstituciones/26.jpg",
+      		"thumbnailLink": "./examples/miniaturas/26t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.700122090817104, -31.605301751384108 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "28",
+			"name": "Centro Interdisciplinario de Prevención de Enfermedades de Transmisión Sexual y Sida (Cipress)",
+			"address": "Calle San Lorenzo 3052",
+			"telefono": "4562614",
+			"descripcio": "Es una ONG que trabaja con el objetivo de concientizar a la población mediante talleres de capacitación, asesoramiento y difusión. Además allí se pueden realizar test de VIH en solo 20 minutos",
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/28.jpg",
+      		"thumbnailLink": "./examples/miniaturas/28t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.715308923845171, -31.639134340265166 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "30",
+			"name": "Fundación Mundo Pequeño",
+			"address": "Calle Juan Díaz de Solís 1854",
+			"telefono": "3424081019",
+			"descripcio": "Trabaja para incluir y recuperar a los niños en riesgo social. Su misión es brindar asistencia, trabajando en pos de la recuperación y re inserción de niños y niñas, a través de la contención, alimentación y formación adecuada",
+			"email": null,
+			"imageLink": "./examples/imagenesinstituciones/30.jpg",
+      		"thumbnailLink": "./examples/miniaturas/30t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.728496067115103, -31.650267748107812 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "31",
+			"name": "Fundación Centro",
+			"address": "Avenida Freyre 2060",
+			"telefono": "3425744648",
+			"descripcio": "Trabaja para la prevención, atención y lucha contra la  Bulimia y Anorexia. Es de atención pública",
+			"email": "alubasantafe@hotmail.com, www.fundacioncentro.com.ar",
+			"imageLink": "./examples/imagenesinstituciones/31.jpg",
+      		"thumbnailLink": "./examples/miniaturas/31t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.719443417534315, -31.649619200078142 ]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"gid": "22",
+			"name": "Fundación Hoy x Mañana CONIN SANTA FE",
+			"address": "Calle Juan de Garay 4151",
+			"telefono": "3424583532",
+			"descripcio": "No cabe",
+			"imageLink": "./examples/imagenesinstituciones/22.jpg",
+      		"thumbnailLink": "./examples/miniaturas/22t.jpg"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [ -60.727191949838932, -31.648946107290438 ]
+		}
+	}
+]
+}

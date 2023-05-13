@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sergio "Checho" Basile</title>
+
+  <link href="css/jquery-ui.css" media="all" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <link href="css/ol.css" media="all" type="text/css" rel="stylesheet">
+  <link href="css/ol-ext.min.css" media="all" type="text/css" rel="stylesheet">
+
+
+  <link rel="stylesheet"  type="text/css" href="css/style2.css">
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/Chart.js"></script>
+
+  <script src="js/ol-debug.js"></script>
+  <script src="js/ol-ext.min.js"></script>
+
+
+  <script src="js/oficina.js"></script>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"> </script>
+
+  <!--
+  <script src="js/grafica.js"></script>
+  -->
+
+
+  <link href="icheck-1.x/skins/flat/grey.css" rel="stylesheet">
+  <script src="icheck-1.x/icheck.min.js"></script>
+</head>
+<body>
+
+  <div class="container-fluid" id="principal">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col col-8 pt-2 pl-3 text-left port">
+      	<a href="index.html"><img src="images/basile.png" width="100em"></a>
+      </div>
+      <div class="col col-4 pt-2 barra">
+      	<div class="pr-2">
+          <a href="https://es-la.facebook.com/sergiojbasile/" target="_blank"><img src="images/my-icons-collection/svg/001-facebook-logo.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://www.instagram.com/checho.basile/?hl=es" target="_blank"><img src="images/my-icons-collection/svg/003-instagram.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://twitter.com/chechobasile?lang=es" target="_blank"><img src="images/my-icons-collection/svg/004-twitter.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+        	<a href="mailto:concejalbasile@concejosantafe.gov.ar" target="_blank"><img src="images/my-icons-collection/svg/mail.svg" alt=""></a>
+        </div>
+        <div class="pr-2">
+          <a href="https://www.youtube.com/channel/UCYtxy2DivpvmZL7SBsCTC0g" target="_blank"><img src="images/my-icons-collection/svg/002-youtube-symbol.svg" alt=""></a>
+        </div>
+      </div>
+     </div>
+  </div>
+
+  <nav class="container-fluid">
+    <div class="row py-2 px-2 justify-content-right">
+    <div class="col col-12 col-xl-6">
+      <form>
+        <!-- <label for="type">Seleccione un reclamo tipo &nbsp;</label> -->
+        <select id="type" class="form-control custom-select">
+          <option value="" name="">Seleccione Un Reclamo</option>
+          <option value="pavimentacion" name="pavimentacion">Pavimentación, bacheo, arreglo de calles</option>
+          <option value="alumnbrado" name="alumnbrado">Alumbrado</option>
+          <option value="limpieza" name="limpieza">Desmalezamiento, limpieza</option>
+          <option value="residuos" name="residuos">Recolección de residuos, barrido</option>
+          <option value="desagues" name="desagues">Desagües, prevención de inundaciones</option>
+          <option value="transporte" name="transporte">Transporte público</option>
+          <option value="inseguridad" name="inseguridad">Inseguridad, presencia policial</option>
+          <option value="transito" name="transito">Control de tránsito</option>
+          <option value="arboles" name="arboles">Extracción, colocación de árboles</option>
+          <option value="particular" name="particular">Temas particulares</option>
+          <option value="cloacas" name="cloacas">Cloacas</option>
+          <option value="otros" name="otros">Otros</option>
+          <option value="espacio" name="espacio">Control del espacio público</option>
+          <option value="mantenimiento" name="mantenimiento">Mantenimiento</option>
+        </select>
+      </form>
+      </div>
+      <div class="col col-12 col-xl-6">
+        <form>
+          <select id="distritos" class="form-control custom-select">
+            <option value="" name="">Seleccione un Distrito</option>
+            <option value="ciudad" name="ciudad">Toda la Ciudad</option>
+            <option value="norte" name="norte">Distrito Norte</option>
+            <option value="noroeste" name="noroeste">Distrito Noroeste</option>
+            <option value="este" name="este">Distrito Este</option>
+            <option value="noreste" name="noreste">Distrito Noreste</option>
+            <option value="suroeste" name="suroeste">Distrito Suroeste</option>
+            <option value="oeste" name="oeste">Distrito Oeste</option>
+            <option value="centro" name="centro">Distrito Centro</option>
+            <option value="costa" name="costa">Distrito La Costa</option>
+          </select>
+        </form>
+    </div>
+    <div class="col col-12 col-xl-6 pt-1">
+      <a href="https://fracabla.000webhostapp.com/form.html"><button type="button" name="button" class="btn btn-block btn-info" >Hacé tu propio reclamo</button></a>
+    </div>
+  </div>
+  </nav>
+
+
+      <div  id="mapa" class="container-fluid mb-4">
+        <div class="row">
+          <div class="col">
+            <ul class="list" id="oficinas">
+              <li>
+                <label for="o2016"> Oficina Móvil 2016</label>
+                <input type="checkbox" name="iCheck" id="o2016" value="oficinas2016json" checked="checked">
+              </li>
+              <li>
+                <label for="o2017"> Oficina Móvil 2017</label>
+                <input type="checkbox" name="iCheck" id="o2017" value="oficinas2017json" checked="checked">
+              </li>
+              <li>
+                <label for="o2018"> Oficina Móvil 2018</label>
+                <input type="checkbox" name="iCheck" id="o2018" value="oficinas2018json" checked="checked">
+              </li>
+            </ul>
+         </div>
+         <div class="col" id="gras">
+           <!-- width="220" height="220" -->
+            <canvas id="totales" width="220" height="250"></canvas>
+         </div>
+        </div>
+      </div>
+
+
+
+  <!--
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-3">
+        <canvas id="centroPie" width="220" height="220"></canvas>
+      </div>
+      <div class="col-3">
+        <canvas id="costaPie" width="220" height="220"></canvas>
+      </div>
+      <div class="col-3">
+        <canvas id="norestePie" width="220" height="220"></canvas>
+      </div>
+      <div class="col-3">
+        <canvas id="nortePie" width="220" height="220"></canvas>
+      </div>
+      <div class="col-3">
+        <canvas id="noroestePie" width="220" height="220"></canvas>
+      </div>
+      <div class="col-3">
+        <canvas id="oestePie" width="220" height="220"></canvas>
+      </div>
+      <div class="col-3">
+        <canvas id="suroestePie" width="220" height="220"></canvas>
+      </div>
+      <div class="col-3">
+        <canvas id="estePie" width="220" height="220"></canvas>
+      </div>
+    </div>
+    </div>
+-->
+
+    <!-- <div class="row">
+      <div class="col-4">
+        <canvas id="horizontalbar" width="220" height="220"></canvas>
+      </div>
+      <div class="col-4">
+        <canvas id="bar" width="220" height="220"></canvas>
+      </div>
+      <div class="col-4">
+
+      </div>
+    </div> -->
+    <script>
+    $(document).ready(function(){
+      $('input').iCheck({
+        checkboxClass: 'icheckbox_flat-grey',
+        radioClass: 'iradio_flat-blue',
+        increaseArea: '20%' // optional
+      });
+    });
+
+    $('.card-grid').flip({
+      axis: 'x',
+      trigger: 'hover',
+      reverse: true
+    });
+
+    </script>
+
+</body>
+</html>

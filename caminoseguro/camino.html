@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+ 
+  <link href="css/leaflet.css" media="all" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/camino.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+  <link rel="stylesheet" href="./plugins/Leaflet-amark/dist/leaflet.awesome-markers.css">
+
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <section class="container-fluid" id="caminoseguro">
+
+      <!--  <img src="img/toggle.svg" id="button-toggle" alt=""> -->
+      <!--  <img src="img/responder.svg" id="button-back" alt=""></a> -->
+
+        <label class="sr-only" for="inlineFormInputGroup">Elige el Camino</label>
+        <div class="input-group" id="eligeCamino">
+          <div class="input-group-prepend">
+            <div class="input-group-text btn btn-primary" style="background-color:rgb(66,166,215);color:rgb(255,255,255);"><i class="fa fa-search-location" style="font-size: 1em;"></i></div>
+          </div>
+          <!--  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Elige el Camino"> -->
+          <form>
+        	<select id="listaCaminos" class="form-control custom-select" id="inlineFormInputGroup">
+        		<option value="">Elige el camino</option>
+          		<option value="camino1">Escuela Mariano Moreno</option>
+          		<option value="camino2">Escuela Velez Sharfield</option>
+          	</select>
+          </form>
+        </div>
+
+      <!--  <img src="img/gps.svg" id="button-geo" alt=""> -->
+  </section>
+  
+  <div id="button-geo-div">
+  	<button id="button-geo" type="button" class="btn mapbuttons" style="background-color:rgb(66,166,215);color:rgb(255,255,255);"><i class="fa fa-crosshairs"></i></button>
+  </div>
+  
+  <div id="button-back-div">
+  	<a href="index.html"><button id="button-back" type="button" class="btn mapbuttons" style="background-color:rgb(66,166,215);color:rgb(255,255,255);"><i class="fa fa-undo"></i></button></a>
+  </div>
+  
+  <div id="button-layer-div">
+  	<button id="button-layer" type="button" class="btn mapbuttons" style="background-color:rgb(66,166,215);color:rgb(255,255,255);"><i class="fa fa-layer-group"></i></button>
+  </div>
+  <section class="leaflet-control-layers-list" id="controlCapas">
+  		<label class="labelcheck">Ciclo Vía
+  			<input type="checkbox" checked="checked" value="layerCarrilBici" id="biciInput">
+  			<span class="checkmark"></span>
+		</label>
+		<label class="labelcheck">Paradas de Colectivo
+  			<input type="checkbox">
+  			<span class="checkmark"></span>
+		</label>
+  	</section>
+
+  <section class="container-fluid py-1" id="btncaminos-section">
+    <div class="row">
+      <div class="col-4 pr-1 text-center">
+        <button type="button" name="vecinos" id="vecinosBoton" class="btn botCamin mapbuttons" style="background-color:rgb(66,166,215);color:rgb(255,255,255);"> Ver Vecinos Amigos</button>
+      </div>
+      <div class="col-4 pr-1 text-center">
+        <button type="button" name="puntos" id="puntosBoton" class="btn botCamin mapbuttons" style="background-color:rgb(66,166,215);color:rgb(255,255,255);"> Ver Puntos de Encuentro</button>
+      </div>
+      <div class="col-4 pr-1 text-center">
+        <button type="button" name="incidencias" id="incidenciasBoton" class="btn botCamin mapbuttons" style="background-color:rgb(66,166,215);color:rgb(255,255,255);"> Marcar Incidencias en el camino</button>
+      </div>
+    </div>
+  </section>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/fastclick.js"></script>
+<script type="text/javascript" src="js/leaflet.js"></script>
+<script src="./plugins/Leaflet-amark/dist/leaflet.awesome-markers.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+
+
+  <!-- Capas del Mapa -->
+  <script src="js/json/caminosfinjs.js"></script>
+  <script src="js/json/escuelas.js"></script>
+  <script src="js/json/vecinosfin2.js"></script>
+  <script src="js/json/encuentrofinjs.js"></script>
+  <script src="js/json/bicicletafinjs.js"></script>
+
+  <!-- Archivo js principal -->
+  <script src="js/camino.js"></script>
+
+
+</body>
+</html>

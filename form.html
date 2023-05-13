@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>form</title>
+
+  <link href="css/jquery-ui.css" media="all" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <link href="css/ol.css" media="all" type="text/css" rel="stylesheet">
+  <link href="css/ol-ext.min.css" media="all" type="text/css" rel="stylesheet">
+
+
+  <link rel="stylesheet"  type="text/css" href="css/style.css">
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/Chart.js"></script>
+
+  <script src="js/ol-debug.js"></script>
+  <script src="js/ol-ext.min.js"></script>
+
+
+  <script src="js/oficina.js"></script>
+  <!--
+  <script src="js/grafica.js"></script>
+  -->
+
+
+  <link href="icheck-1.x/skins/flat/grey.css" rel="stylesheet">
+  <script src="icheck-1.x/icheck.min.js"></script>
+
+</head>
+<body>
+  <header class="container-fluid encabezado">
+    <div class="row text-center align-items-center">
+      <div class="col-4 text-center">
+        <a href="index.html"><img src="images/fuente2.jpg"></a>
+      </div>
+      <div class="col-8 text-center">
+        <img src="images/logofrente2.jpg" style="height:3.2em;">
+      </div>
+    </div>
+    <div class="row" style="position: absolute;right: 2em;top: 1em;">
+      <nav class="col-12 text-right p-2">
+        <div class="card-grid pr-2">
+          <div class="front"><a href="https://es-la.facebook.com/sergiojbasile/" target="_blank"><img src="images/iconos/001-facebook-logo.svg" alt=""></a></div>
+          <div class="back"><a href="https://es-la.facebook.com/sergiojbasile/" target="_blank"><img src="images/iconos/005-facebook.svg" alt=""></a></div>
+        </div>
+        <div class="card-grid pr-2">
+          <div class="front"><a href="https://www.instagram.com/checho.basile/?hl=es" target="_blank"><img src="images/iconos/instagramsom.svg" alt=""></a></div>
+          <div class="back"><a href="https://www.instagram.com/checho.basile/?hl=es" target="_blank"><img src="images/iconos/006-instagram.svg" alt=""></a></div>
+        </div>
+        <div class="card-grid pr-2">
+          <div class="front"><a href="https://twitter.com/chechobasile?lang=es" target="_blank"><img src="images/iconos/twittersom.svg" alt=""></a></div>
+          <div class="back"><a href="https://twitter.com/chechobasile?lang=esº" target="_blank"><img src="images/iconos/007-twitter.svg" alt=""></a></div>
+        </div>
+        <div class="card-grid pr-2">
+          <div class="front"><a href="mailto:concejalbasile@concejosantafe.gov.ar" target="_blank"><img src="images/iconos/googlesom.svg" alt=""></a></div>
+          <div class="back"><a href="mailto:concejalbasile@concejosantafe.gov.ar" target="_blank"><img src="images/iconos/008-google-plus.svg" alt=""></a></div>
+        </div>
+        <div class="card-grid pr-2">
+          <div class="front"><a href="https://www.youtube.com/channel/UCYtxy2DivpvmZL7SBsCTC0g" target="_blank"><img src="images/iconos/youtubesom.svg" alt=""></a></div>
+          <div class="back"><a href="https://www.youtube.com/channel/UCYtxy2DivpvmZL7SBsCTC0g" target="_blank"><img src="images/iconos/009-youtube.svg" alt=""></a></div>
+        </div>
+      </nav>
+     </div>
+  </header>
+
+
+  <section class="container-fluid py-4">
+    <form action="form.php" method="post" name="contacto" id ="contacto" >
+    <div class="row justify-content-center">
+        <div class="col-4">
+          <div class="form-group">
+            <label for="nombre">Nombre y Apellidos*</label>
+            <input name="nombre" type="text" class="form-control" placeholder="Nombre y Apellidos" required>
+          </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-4">
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input name="telefono" type="text" class="form-control" placeholder="Número de teléfono" >
+          </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-4">
+          <div class="form-group">
+            <label for="email">Email*</label>
+            <input name="email" type="text" class="form-control" placeholder="Correo electrónico" required>
+          </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-4">
+          <div class="form-group">
+            <label for="direccion">Dirección*</label>
+            <input name="direccion" type="text" class="form-control" placeholder="Dirección" required>
+          </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <div class="form-group">
+          <label for="barrio">Barrio</label>
+          <input name="barrio" type="text" class="form-control" placeholder="Introduce tu Barrio">
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <div class="form-group" id="reclamos_form">
+          <label for="reclamo">Reclamo*</label>
+          <select  name="reclamo" class="form-control custom-select">
+            <option value="" name="">Seleccione Un Reclamo</option>
+            <option value="pavimentacion" name="pavimentacion">Pavimentación, bacheo, arreglo de calles</option>
+            <option value="alumnbrado" name="alumnbrado">Alumbrado</option>
+            <option value="limpieza" name="limpieza">Desmalezamiento, limpieza</option>
+            <option value="residuos" name="residuos">Recolección de residuos, barrido</option>
+            <option value="desagues" name="desagues">Desagües, prevención de inundaciones</option>
+            <option value="transporte" name="transporte">Transporte público</option>
+            <option value="inseguridad" name="inseguridad">Inseguridad, presencia policial</option>
+            <option value="transito" name="transito">Control de tránsito</option>
+            <option value="arboles" name="arboles">Extracción, colocación de árboles</option>
+            <option value="particular" name="particular">Temas particulares</option>
+            <option value="cloacas" name="cloacas">Cloacas</option>
+            <option value="otros" name="otros">Otros</option>
+            <option value="espacio" name="espacio">Control del espacio público</option>
+            <option value="mantenimiento" name="mantenimiento">Mantenimiento</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <div class="form-group">
+          <label for="texto">¿Cuál es tu reclamo?</label>
+          <textarea name="texto" type="text" class="form-control" placeholder="Escribe aquí tu reclamo"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row  justify-content-center text-center">
+      <div class="col-4">
+        <button type="submit" name="button" class="btn btn-success">Confirma Tu reclamo</button>
+      </div>
+    </div>
+  </form>
+  </section>
+
+
+  <footer class="container-fluid">
+    <div class="row text-right" id="footer_left" style="color: #ffffff;">
+      <div class="col-2 align-self-center">
+        <a href="https://es-la.facebook.com/sergiojbasile/" target=”_blank”><img src="icons/face.png" alt=""> /sergiojbasile</a>
+      </div>
+      <div class="col-2 align-self-center">
+        <a href="https://twitter.com/chechobasile?lang=es" target=”_blank”><img src="icons/twitter.png" alt=""> /@chechobasile</a>
+      </div>
+      <div class="col-2 align-self-center">
+        <a href="https://www.youtube.com/channel/UCYtxy2DivpvmZL7SBsCTC0g" target=”_blank”><img src="icons/youtube.png" alt=""> Sergio Basile</a>
+      </div>
+      <div class="col-2 align-self-center">
+        <a href="https://www.instagram.com/checho.basile/?hl=es" target=”_blank”><img src="icons/instagram.png" alt=""> checho.basile</a>
+      </div>
+      <div class="col-2 align-self-center" style="font-size:0.7em;color: #000000;">
+        concejalbasile@concejosantafe.gov.ar<br>
+        4571789/4571792
+      </div>
+      <!-- <div class="col-10 text-center" id="footer_left">
+        <h4>BASILE</h4>
+        <h6>CONCEJAL</h6>
+      </div> -->
+      <div class="col-2 text-center" style="color: #000000;">
+        <p>Ciudad de Santa Fe</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  $('.card-grid').flip({
+    axis: 'x',
+    trigger: 'hover',
+    reverse: true
+  });
+  </script>
+
+
+</body>
+</html>

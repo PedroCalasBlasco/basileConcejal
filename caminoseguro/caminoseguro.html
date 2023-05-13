@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sergio "Checho" Basile</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+
+
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"/>
+<link rel="stylesheet" href="./Leaflet-amark/dist/leaflet.awesome-markers.css">
+
+
+  <link rel="stylesheet"  type="text/css" href="../css/style2.css">
+
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+  <script src="./Leaflet-amark/dist/leaflet.awesome-markers.min.js"></script>
+
+  <style>
+    #caminoseguro{
+      height: 500px;
+      border: 10px solid rgba(235,96,65);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid" id="principal">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col col-8 pt-2 pl-3 text-left port">
+      	<a href="../index.html"><img src="../images/basile.png" width="100em"></a>
+      </div>
+      <div class="col col-4 pt-2 barra">
+      	<div class="pr-2">
+          <a href="https://es-la.facebook.com/sergiojbasile/" target="_blank"><img src="../images/my-icons-collection/svg/001-facebook-logo.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://www.instagram.com/checho.basile/?hl=es" target="_blank"><img src="../images/my-icons-collection/svg/003-instagram.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://twitter.com/chechobasile?lang=es" target="_blank"><img src="../images/my-icons-collection/svg/004-twitter.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+        	<a href="mailto:concejalbasile@concejosantafe.gov.ar" target="_blank"><img src="../images/my-icons-collection/svg/mail.svg" alt=""></a>
+        </div>
+        <div class="pr-2">
+          <a href="https://www.youtube.com/channel/UCYtxy2DivpvmZL7SBsCTC0g" target="_blank"><img src="../images/my-icons-collection/svg/002-youtube-symbol.svg" alt=""></a>
+        </div>
+      </div>
+     </div>
+  </div>
+
+  <div class="container mt-2">
+    <div class="row justify-content-around">
+      <div class="col col-12 jumbotron">
+      <h2 class="text-center"><strong>CAMINO ESCOLAR SEGURO</strong></h2>
+      <hr>
+      <h5 class="text-center" style="font-size:1.1em;">El CAMINO ESCOLAR SEGURO es una vía de circulación preferencial  utilizada por las niñas, niños y adolescentes que une a la Escuela con puntos de referencia trazando así una serie de circuitos escolares.</h5>
+      <br>
+      <h5 class="text-center" style="font-size:1.1em;">Se trata generar condiciones que hagan de esa vía de movilidad o circuito, un espacio amable,
+      ameno y seguro, donde estas niñas, niños y jóvenes puedan tener una experiencia de autonomía y contacto directo
+       con su entorno cotidiano, el barrio y su gente</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+  	<div class="row justify-content-around">
+  		<div class="col-12 col-xl-5 text-center my-3">
+  				<img src="../images/camino1.jpg" width="95%" height="auto">
+  		</div>
+  		<div class="col-12 col-xl-5 text-center my-3">
+  				<img src="../images/camino2.jpg" width="95%" height="auto">
+  		</div>
+  	</div>
+  </div>
+
+  <div class="container-fluid pl-3 mt-3" id="sectiongrooming">
+  	<div class="row justify-content-around">
+	  	<div class="col col-12 col-xl-9 ml-3">
+	  		<div id="caminoseguro" class="col col-12 py-1"></div>
+	  	</div>
+	  	<!--<div class="col col-12 col-xl-2 jumbotron">
+			<h5 class="text-center" style="font-size:1.1em;">Es la acción deliberada de una persona adulta de acosar sexualmente a un niño, niña o adolescente mediante el uso de Internet.</h5><br>
+			<h5 class="text-center" style="font-size:1.1em;">Es fundamental poder brindarles a chicas y chicos las herramientas para que puedan prevenir este delito y sepan que hacer ante una situación de riesgo.</h5><br>
+	        <h5 class="text-center" style="font-size:1.1em;">Con el objetivo de concientizar al respecto visitamos diferentes <strong>Instituciones</strong> desde 2016</h5>
+	  	</div>
+      -->
+        <div class="col col-4 pr-1 pt-4 pb-5 text-center">
+          <button type="button" name="vecinos" id="vecinosBoton" class="btn botCamin mapbuttons" style="background-color:rgb(66,166,215);color:rgb(255,255,255);"> Ver Vecinos Amigos</button>
+        </div>
+        <div class="col col-4 pr-1 pt-4 pb-5 text-center">
+          <button type="button" name="puntos" id="puntosBoton" class="btn botCamin mapbuttons" style="background-color:rgb(66,166,215);color:rgb(255,255,255);"> Ver Puntos de Encuentro</button>
+        </div>
+
+
+
+    </div>
+   </div>
+
+
+   <section class="container-fluid py-1" id="btncaminos-section">
+     <div class="row">
+
+     </div>
+   </section>
+
+
+
+  <!--  <script src="./js/leaflet.awesome-markers.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+
+
+    <!-- Capas del Mapa -->
+    <script src="js/json/caminosfinjs.js"></script>
+    <script src="js/json/escuelas.js"></script>
+    <script src="js/json/vecinosfin2.js"></script>
+    <script src="js/json/encuentrofinjs.js"></script>
+    <script src="js/json/bicicletafinjs.js"></script>
+
+    <!-- Archivo js principal -->
+    <script src="js/camino.js"></script>
+
+
+</body>
+</html>

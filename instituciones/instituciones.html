@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sergio "Checho" Basile</title>
+
+
+  <script src="./lib/JQuery/jquery-1.11.3.min.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="./lib/lightbox2/dist/css/lightbox.min.css" />
+
+  <script src="./lib/Leaflet.bouncemarker/bouncemarker.js"></script>
+
+  <link rel="stylesheet" href="./src/coordinatedimagepreview.css" />
+  <script src="./src/coordinatedimagepreview.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <script src="bootstrap.min.js"></script>
+
+  <link rel="stylesheet"  type="text/css" href="../css/style2.css">
+
+
+  <style>
+  	#map{
+
+  	height: 500px;
+  	border: 10px solid rgba(235,96,65);
+
+  	}
+  </style>
+
+        <script>
+            window.onload = function () {
+                map = L.map('map', {
+                    center: [-31.6200, -60.6792],
+                    zoom: 12.8,
+                    zoomControl: false
+                });
+                map.addControl(L.control.zoom({position: 'topleft'}));
+                L.tileLayer('https://api.mapbox.com/styles/v1/pedrocalas/cj9xf83rz6muv2sobidhajg36/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGVkcm9jYWxhcyIsImEiOiJjajJ4cjluMTMwMThtMndxOGg4Y3NoZWkzIn0.83VnuZwLtidmCHxuP1briA', {
+                    attribution: 'Leaflet',
+                    subdomains: ['a', 'b', 'c']
+                }).addTo(map);
+                var options = {
+                    //imageServiceAddress: "examples/imagenesInstituciones.json",
+                    imageServiceAddress: "examples/instituciones.json",
+                    isOpen: true
+                };
+                $('#coordinatedImagePreviewControlContainer').CoordinatedImagePreviewControl(options);
+            };
+        </script>
+
+
+
+
+</head>
+<body>
+
+  <div class="container-fluid" id="principal">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col col-8 pt-2 pl-3 text-left port">
+      	<a href="../index.html"><img src="../images/basile.png" width="100em"></a>
+      </div>
+      <div class="col col-4 pt-2 barra">
+      	<div class="pr-2">
+          <a href="https://es-la.facebook.com/sergiojbasile/" target="_blank"><img src="../images/my-icons-collection/svg/001-facebook-logo.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://www.instagram.com/checho.basile/?hl=es" target="_blank"><img src="../images/my-icons-collection/svg/003-instagram.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+          <a href="https://twitter.com/chechobasile?lang=es" target="_blank"><img src="../images/my-icons-collection/svg/004-twitter.svg" alt=""></a>
+        </div>
+        <div class=" pr-2">
+        	<a href="mailto:concejalbasile@concejosantafe.gov.ar" target="_blank"><img src="../images/my-icons-collection/svg/mail.svg" alt=""></a>
+        </div>
+        <div class="pr-2">
+          <a href="https://www.youtube.com/channel/UCYtxy2DivpvmZL7SBsCTC0g" target="_blank"><img src="../images/my-icons-collection/svg/002-youtube-symbol.svg" alt=""></a>
+        </div>
+      </div>
+     </div>
+  </div>
+
+  <div class="container mt-2">
+  	<div class="row">
+  		<div class="col col-12 jumbotron">
+			<h2 class="text-center"><strong>ACOMPAÑAMOS EL TRABAJO DE INSITUCIONES SOCIALES</strong></h2>
+			<hr>
+			<h5 class="text-center" style="font-size:1.1em;">Porque creemos en que las Instituciones Sociales son verdadreas vertebradoras del tejido social de nuestra sociedad apoyamos el trabajo que día a día realizan.</h5><br>
+			<h5 class="text-center" style="font-size:1.1em;">Estas son algunas de las instituciones con las que a lo largo de este tiempo venimos trabajando.</h5>
+
+	  	</div>
+  	</div>
+  </div>
+
+  <div class="container  my-3" id="sectiongrooming">
+  	<div class="row justify-content-around">
+	  	<div class="col col-12">
+	  		<div id="map" class="col col-12 py-1 map"></div>
+        	<div id='coordinatedImagePreviewControlContainer' style="position: fixed;"></div>
+	  	</div>
+	 </div>
+  </div>
+
+
+<script src="./lib/lightbox2/dist/js/lightbox.min.js"></script>
+
+</body>
+</html>
